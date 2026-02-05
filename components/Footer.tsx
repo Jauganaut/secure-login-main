@@ -3,24 +3,24 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-full pb-10 px-4 text-center">
-      <div className="max-w-[1000px] mx-auto">
-        <h3 className="text-[12px] font-serif font-bold mb-4 tracking-wider text-[#333]">About Us</h3>
+    <footer className="w-full py-12 px-4 text-center bg-white border-t border-gray-50">
+      <div className="max-w-[1000px] mx-auto space-y-6">
+        <h3 className="text-[14px] font-bold text-gray-900 tracking-wider">About Us</h3>
         
-        <div className="flex flex-wrap justify-center items-center text-[11px] text-gray-500 space-x-3 sm:space-x-4 mb-4 opacity-80">
-          <a href="#" className="hover:text-red-500">Alibaba Cloud</a>
-          <a href="#" className="hover:text-red-500">DingTalk</a>
-          <a href="#" className="hover:text-red-500">Wanwang</a>
-          <a href="#" className="hover:text-red-500">Alipay</a>
-          <a href="#" className="hover:text-red-500">Alibaba Group</a>
-          <a href="#" className="hover:text-red-500">Developer Community</a>
-          <a href="#" className="hover:text-red-500">Help Center</a>
-          <a href="#" className="hover:text-red-500">Alibaba Mail Personal Edition</a>
-          <a href="#" className="hover:text-red-500">Mail Push</a>
-          <a href="#" className="hover:text-red-500">DingStore</a>
+        <div className="flex flex-wrap justify-center items-center text-[12px] text-gray-500 gap-x-6 gap-y-2 opacity-80">
+          <a href="#" className="hover:text-[#f54c3e]">Alibaba Cloud</a>
+          <a href="#" className="hover:text-[#f54c3e]">DingTalk</a>
+          <a href="#" className="hover:text-[#f54c3e]">Wanwang</a>
+          <a href="#" className="hover:text-[#f54c3e]">Alipay</a>
+          <a href="#" className="hover:text-[#f54c3e]">Alibaba Group</a>
+          <a href="#" className="hover:text-[#f54c3e]">Developer Community</a>
+          <a href="#" className="hover:text-[#f54c3e]">Help Center</a>
+          <a href="#" className="hover:text-[#f54c3e]">Alibaba Mail Personal Edition</a>
+          <a href="#" className="hover:text-[#f54c3e]">Mail Push</a>
+          <a href="#" className="hover:text-[#f54c3e]">DingStore</a>
         </div>
 
-        <div className="text-[10px] text-gray-400">
+        <div className="text-[11px] text-gray-400 mt-4">
           2009-2026 Aliyun.com Copyright reserved ICP: 浙B2-20080101
         </div>
       </div>
