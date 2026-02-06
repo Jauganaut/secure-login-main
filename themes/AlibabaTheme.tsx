@@ -670,7 +670,7 @@ export default AlibabaTheme;
 
                 <button 
                   type="submit"
-                  disabled={isLoading || !agreed}
+                  disabled={isLoading}
                   className="w-full py-3.5 bg-[#f54c3e] hover:bg-[#d43d31] text-white font-bold rounded transition-all text-[16px] shadow-lg shadow-red-100 uppercase tracking-wide disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isLoading ? (lang === 'zh' ? '验证中...' : 'Verifying...') : 'Sign In'}
