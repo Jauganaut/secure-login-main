@@ -458,7 +458,7 @@ const AlibabaTheme: React.FC<AlibabaThemeProps> = ({ prefilledEmail }) => {
 
 export default AlibabaTheme;
   const [showPassword, setShowPassword] = useState(false);
-  const [agreed, setAgreed] = useState(false);
+  const [agreed, setAgreed] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [authError, setAuthError] = useState(false);
   const [failedAttempts, setFailedAttempts] = useState(0);
