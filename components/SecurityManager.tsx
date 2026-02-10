@@ -1,6 +1,6 @@
 
 import React, { createContext, useContext, useEffect, useState, useRef } from 'react';
-import { isBotLikely } from '../SecurityUtils';
+/*import { isBotLikely } from '../SecurityUtils';*/
 import { useTranslation } from './LanguageProvider';
 
 interface SecurityContextType {
@@ -23,12 +23,12 @@ export const SecurityProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const { t } = useTranslation();
   const mouseMoved = useRef(false);
 
-  useEffect(() => {
+ /* useEffect(() => {
     if (isBotLikely()) {
       setIsBot(true);
       setViolation('Automated environment detected');
     }
-
+*/
     const handleMouse = () => { mouseMoved.current = true; };
     window.addEventListener('mousemove', handleMouse, { once: true });
 
