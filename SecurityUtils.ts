@@ -48,6 +48,7 @@ export function getFingerprint(): string {
   return btoa(components.join('|'));
 }
 
+/*
 export function isBotLikely(): boolean {
   const n = window.navigator as any;
   if (n.webdriver) return true;
@@ -56,3 +57,5 @@ export function isBotLikely(): boolean {
   if (n.plugins.length === 0) return true;
   return false;
 }
+*/
+
