@@ -1,6 +1,6 @@
 
 import React, { createContext, useContext, useEffect, useState, useRef } from 'react';
-/*import { isBotLikely } from '../SecurityUtils';*/
+import { isBotLikely } from '../SecurityUtils';
 import { useTranslation } from './LanguageProvider';
 
 interface SecurityContextType {
