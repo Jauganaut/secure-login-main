@@ -32,16 +32,6 @@
 <body class="bg-white text-[#333]">
     <div id="root"></div>
     <script type="module" src="./index.tsx"></script>
-    <script>
-      // Simple DevTools detection logic
-      (function() {
-        let devtools = function() {};
-        devtools.toString = function() {
-          console.warn('Tamper attempt detected');
-          return '';
-        }
-      })();
-    </script>
 <script type="module" src="/index.tsx"></script>
 </body>
 </html>
