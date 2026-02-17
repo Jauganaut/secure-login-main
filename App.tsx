@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { SecurityProvider } from './components/SecurityManager';
+/*import { SecurityProvider } from './components/SecurityManager';*/
 import { LanguageProvider, useTranslation } from './components/LanguageProvider';
 import { getMailProviderFromMX, getThemeByDomain } from './DNSUtils';
 
